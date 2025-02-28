@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fundo do Mar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/imagens/aqualink-right-removebg.-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="/imagens/WhatsApp_Image_2024-11-19_at_19.08.52-removebg-preview (1).png" alt="">
+        <div class="logo">
+            <h1>Aqualink</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="ocenwise.html">Ocenwise</a></li>
+                <li><a href="em-alta.html">Em Alta</a></li>
+                <li><a href="ecossistema.html">Ecossistema</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Login</h2>
+        <!-- Formulário para Visitantes -->
+        <div class="form-container">
+            <h3>Acesso como Visitante</h3>
+            <form id="visitanteForm" action="registrar-visitante.php" method="POST">
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+
+        <!-- Formulário para Pesquisadores -->
+        <div class="form-container">
+            <h3>Acesso como Pesquisador</h3>
+            <form id="pesquisadorForm" action="login.php" method="POST">
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Equipe Fundo do Mar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

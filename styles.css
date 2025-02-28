@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #050097; /* Azul claro */
+    color: #ffffff; /* Azul escuro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #04002d; /* Azul médio */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.sobre-equipe {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sobre-equipe img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.quarteto {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.participante {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 22%; /* Ajuste conforme necessário */
+}
+
+.participante img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.participante p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #01579b;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover; /* Cobrir toda a tela */
+    background-position: center; /* Centralizar a imagem */
+    background-attachment: fixed; /* Fixar a imagem ao rolar a página */
+    color: #01579b; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Imagens de fundo para cada página */
+body.inicio {
+    background-image: url('fundo-inicio.jpg'); /* Imagem de fundo da página inicial */
+}
+
+body.equipe {
+    background-image: url('/teste/imagens/fundodomar-curiosidades03.jpg'); /* Imagem de fundo da página da equipe */
+}
+
+body.ocenwise {
+    background-image: url('/teste/imagens/Design\ sem\ nome.jpg'); /* Imagem de fundo da página Ocenwise */
+}
+
+body.em-alta {
+    background-image: url('/teste/imagens/fundodomar-curiosidades03.jpg'); /* Imagem de fundo da página Em Alta */
+}
+
+body.ecossistema {
+    background-image: url('fundo-ecossistema.jpg'); /* Imagem de fundo da página Ecossistema */
+}
+
+body.login {
+    background-image: url('fundo-login.jpg'); /* Imagem de fundo da página de Login */
+}
+
+/* Ícones do WhatsApp e Instagram */
+.social-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Garante que os ícones fiquem acima de outros elementos */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os ícones */
+}
+
+.whatsapp-float img,
+.instagram-float img {
+    width: 50px; /* Tamanho dos ícones */
+    height: 50px;
+    border-radius: 50%; /* Deixa os ícones redondos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    transition: transform 0.3s ease; /* Efeito de animação ao passar o mouse */
+}
+
+.whatsapp-float img:hover,
+.instagram-float img:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}
+.logo{
+    background-color: #052d6e;
+    font-size: x-large;
+    flex:40%;
+    text-align: left;
+   
+}
+
+.logo h1{
+    background-color: #052d6e;
+    font-family: "League Spartan", serif;
+    color: white;
+    font-size:34px;
+    text-align: left;
+}
